@@ -24,11 +24,12 @@ public class WrapperExample {
         // when an non-primitive is final you cannot reassign it
         // kunal = new A("changes");
 
-        A obj;
+        A obj = new A("Unish");
+        System.out.println(obj);
 
-        for (int i = 0; i < 1000000000; i++) {
-            obj = new A("Random name");
-        }
+//        for (int i = 0; i < 1000000000; i++) {
+//            obj = new A("Random name");
+//        }
 
     }
 
@@ -51,6 +52,8 @@ public class WrapperExample {
             this.name = name;
         }
 
+
+        @Deprecated
         @Override
         protected void finalize() throws Throwable{
             System.out.println("Object is destroyed");
