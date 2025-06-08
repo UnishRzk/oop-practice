@@ -1,10 +1,16 @@
 package com.unish.Inheritance;
 
-public class Box {
+public  class Box {
     double length;
     double height;
     double width;
     double weight;
+
+
+    static void greeting() {
+        System.out.println("this is a greeting from the box class");
+
+    }
 
     public Box (){
 //        this.length = -1;
@@ -20,6 +26,8 @@ public class Box {
         this.height = height;
         this.width = width;
     }
+
+
 
     // cube
     public Box(double side) {

@@ -2,7 +2,7 @@ package com.unish.Inheritance;
 
 public class Main {
     public static void main(String[] args) {
-//        Box box = new Box(4.5, 6.6 ,7.8 );
+        Box box = new Box(4.5, 6.6 ,7.8 );
 //        System.out.println(box.length+ " " + box.height + " " + box.width);
 //
 //        Box box2 = new Box(box);
@@ -26,11 +26,15 @@ public class Main {
 
       //  System.out.println(box5.weight);
 
-        BoxPrice box7 = new BoxPrice(1,2,3,4,5);
-        System.out.println(box7.length+ " " + box7.height + " " + box7.width + " " + box7.weight + " " + box7.price);
+//        BoxPrice box7 = new BoxPrice(1,2,3,4,5);
+//        System.out.println(box7.length+ " " + box7.height + " " + box7.width + " " + box7.weight + " " + box7.price);
 
 
+    //    box.greeting();
 
+        WeightedBox boxx = new WeightedBox();
+        boxx.greeting(); // you can inherit but you cannot override
+        // you can run but you cant hide, you can inherit but you cant override
 
     }
 }

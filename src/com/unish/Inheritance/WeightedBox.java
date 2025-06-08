@@ -24,4 +24,10 @@ public class WeightedBox extends Box {
 //        System.out.println(super.weight);
         this.weight = weight;
     }
+
+//    @Override
+//    static void greeting() {
+//        System.out.println("this is a greeting from the Weighted box class");
+//
+//    }
 }
