@@ -26,7 +26,7 @@ public class ConstructorDemo {
 
         Derived(String name){
            // super(name);
-            System.out.println("Parameterized Derived class constructr called");
+            System.out.println("Parameterized Derived class constructor called");
         }
     }
 
