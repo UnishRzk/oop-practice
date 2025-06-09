@@ -1,7 +1,6 @@
 package com.unish.Singleton;
 
 import com.unish.AccessControll.A;
-import java.lang.String;
 
 public class SubClass extends A {
 
